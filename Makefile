@@ -7,7 +7,7 @@
 # the registry where the image will be pushed (default is Docker Hub).
 DOCKERFILE_DIR     ?= ./
 DOCKER_REGISTRY    ?= docker.io
-DOCKER_ORG         ?= $(USER)
+DOCKER_ORG         ?= gha2
 DOCKER_IMAGE       ?= zoo-entrance
 DOCKER_TAG         ?= latest
 
